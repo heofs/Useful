@@ -1,6 +1,6 @@
-## Configurations 
+# .bashrc 
 
-### Personal
+## Personal
 ```
 alias ll='ls -alF'
 alias la='ls -A'
@@ -15,7 +15,7 @@ export PS2="| => "
 screenfetch -A 'Debian'
 ```
 
-### Server
+## Server
 ```
 export CLICOLOR=1
 export LSCOLORS=DxFxCxGxCxexexaxaxdxDx
