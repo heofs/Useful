@@ -15,7 +15,7 @@
 
 ### Commands
 
--   [Linux](https://github.com/heofs/Useful/tree/master/commands/linux.md#readme) - Linux terminal commands.
+-   [Linux](https://github.com/heofs/Useful/tree/master/Commands/Linux.md#readme) - Linux terminal commands.
 -   [Git](https://github.com/heofs/Useful/tree/master/Commands/Git.md#readme) - Useful GitHub commands.
 -   [Docker](https://github.com/heofs/Useful/tree/master/Commands/Docker.md#readme) - Container commands.
 
