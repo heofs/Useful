@@ -1,4 +1,5 @@
 <div align="center">
+<img width="250" height="250" src="images/chip.svg" alt="Awesome">
 	<h1>Useful</h1>
 	<p>
 		<a href="https://www.patreon.com/sindresorhus">List of commands, guides and configurations.</a>
