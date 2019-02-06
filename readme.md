@@ -7,19 +7,21 @@
 
 ## Contents
 
-- [Commands](#commands)
-- [Configurations](#configurations)
-- [Cheat Sheets](#computer-science)
+-   [Commands](#commands)
+-   [Development](#development)
+-   [Configurations](#configurations)
+-   [Cheat Sheets](#computer-science)
 
 ### Commands
-- [Linux](https://github.com/heofs/Useful/tree/master/Commands/Linux.md#Linux) - Linux commands.
-- [Git](https://github.com/heofs/Useful/tree/master/Commands/Git.md#Git) - Linux commands.
-- [Docker](https://github.com/heofs/Useful/tree/master/Commands/Docker.md#Docker) - Linux commands.
 
+-   [Linux](https://github.com/heofs/Useful/tree/master/Commands/Linux.md#readme) - Linux terminal commands.
+-   [Git](https://github.com/heofs/Useful/tree/master/Commands/Git.md#readme) - Useful GitHub commands.
+-   [Docker](https://github.com/heofs/Useful/tree/master/Commands/Docker.md#readme) - Container commands.
 
-### Programming
+### Development
 
 ### Configurations
-- [Bashrc](https://github.com/heofs/Useful/tree/master/Configurations/Bashrc-config.md#.bashrc) - Linux 
+
+-   [Bashrc](https://github.com/heofs/Useful/tree/master/Configurations/Bashrc-config.md#readme) - Bash terminal configurations.
 
 ### Cheat Sheets
