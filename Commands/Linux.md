@@ -1,8 +1,8 @@
 # Linux
 
-## Services
-```service --status-all```  - List all services
-```top``` or ```htop```
+## Services and Processes
+```service --status-all```  - List all services.
+```top``` or ```htop``` - Process management.
 ```service servicename status```  - Alternative arguments ```status/start/stop/reload/restart```
 
 ## Disks
@@ -10,7 +10,7 @@
 
 ## Disable autostart
 ```sudo update-rc.d servicename disable```  - Removes service from autostart.
-  ```sysv-rc-conf```  - Checkboxes alternative for autostart services.
+```sysv-rc-conf```  - Checkboxes alternative for autostart services.
 
 ## Permissions
 ```sudo chown Username:Groupname``` - Add user to new group.
