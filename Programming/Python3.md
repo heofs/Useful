@@ -1,13 +1,8 @@
-# Python.
-## PyQt5 Commands.
-pyuic5 -x firstgui.ui -o firstgui.py
+# Python
+Useful commands to develop in Python 3.
 
-## Install dependencies, python-dev for python 2. (Solution for pip3 building wheel problem).
-sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+## Dependencies
+```sudo apt-get install build-essential libssl-dev libffi-dev python3-dev```  - Solution for pip3 building wheel problem.
 
-# Python.
-## PyQt5 Commands.
-pyuic5 -x firstgui.ui -o firstgui.py
-
-## Install dependencies, python-dev for python 2. (Solution for pip3 building wheel problem).
-sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
+## PyQt5 Commands
+pyuic5 -x window.ui -o window.py  - Builds a python file from an XML .ui file to be imported in PyQt5 code.
