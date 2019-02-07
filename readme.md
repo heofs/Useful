@@ -19,7 +19,10 @@
 -   [Git](https://github.com/heofs/Useful/tree/master/Commands/Git.md#readme) - Useful GitHub commands.
 -   [Docker](https://github.com/heofs/Useful/tree/master/Commands/Docker.md#readme) - Container commands.
 
-### Development
+### Programming
+
+-   [Python 3](https://github.com/heofs/Useful/tree/master/Programming/Python3.md#readme) - Commands for working with Python 3.
+-   [C++](https://github.com/heofs/Useful/tree/master/Programming/C++.md#readme) - Container commands.
 
 ### Configurations
 
