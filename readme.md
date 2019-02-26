@@ -1,5 +1,5 @@
 <div align="center">
-<img width="250" height="250" src="images/chip.svg" alt="Awesome">
+<img width="250" height="250" src="images/chip.svg" alt="Useful Resources">
 	<h1>Useful</h1>
 	<p>
 		<a href="https://github.com/heofs/Useful">List of commands, guides and configurations.</a>
