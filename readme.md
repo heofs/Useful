@@ -28,4 +28,3 @@
 
 -   [Bashrc](https://github.com/heofs/Useful/tree/master/Configurations/Bashrc-config.md#readme) - Bash terminal configurations.
 
-### Cheat Sheets
