@@ -1,7 +1,7 @@
 # .bashrc 
 
 ## Personal
-```
+```bash
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -14,7 +14,7 @@ export PS2="| => "
 
 screenfetch -A 'Debian'
 ```
-```
+```bash
 export PS1="\[\e[1;31m\]__________________________________    | \w \n| => \[\e[0m\] "
 export PS2="| => "
 
@@ -49,7 +49,7 @@ screenfetch -N -A 'Scientific Linux'
 ```
 
 ## Server
-```
+```bash
 export CLICOLOR=1
 export LSCOLORS=DxFxCxGxCxexexaxaxdxDx
 
