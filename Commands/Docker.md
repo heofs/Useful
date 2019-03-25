@@ -26,8 +26,11 @@
 ## PostgreSQL Container
 
 `docker pull postgres`
+
 `docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres`
 
-docker run -d -p 5432:5432 --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres
-docker exec -it my-postgres bas
-psql -h localhost -p 5432 -U postgres -W
+`docker run -d -p 5432:5432 --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres`
+
+`docker exec -it my-postgres bash`
+
+`psql -h localhost -p 5432 -U postgres -W`
