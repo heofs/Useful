@@ -20,7 +20,7 @@ Example of how data is structured
 {
 	"_id" : ObjectId("5c94cb1c2de34d615e2bfdd8"),
 	"first_name" : "James",
-	"last_name" : "Lock",
+	"last_name" : "Brown",
     "gender" : "Male"
 },
 {
