@@ -35,25 +35,6 @@ Example of how data is structured
 }
 ```
 
-## Inserts
-
-Insert one new record.
-```javascript
-db.customers.insert({first_name:"John", last_name:"Doe"});
-```
-
-Insert many new records at once. 
-```javascript
-db.customers.insert([
-    {
-        first_name: "Peter", last_name: "Smith"
-    },
-    {
-        first_name: "Peter", last_name: "Pan", gender: "Male"
-    }
-])
-```
-
 ## Selects
 
 Find all documents in collections.
@@ -76,6 +57,24 @@ Find every document with Smith OR Derp as last name.
 db.customers.find( { $or: [ { last_name: "Smith" }, { last_name: "Pan" } ] } )
 ```
 
+## Inserts
+
+Insert one new record.
+```javascript
+db.customers.insert({first_name:"John", last_name:"Doe"});
+```
+
+Insert many new records at once. 
+```javascript
+db.customers.insert([
+    {
+        first_name: "Peter", last_name: "Smith"
+    },
+    {
+        first_name: "Peter", last_name: "Pan", gender: "Male"
+    }
+])
+```
 
 ## Updates
 Update the first record found. Deletes old fields and only save new input data. 
