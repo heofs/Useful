@@ -68,7 +68,7 @@ Insert many new records at once.
 ```javascript
 db.customers.insert([
     {
-        first_name: "Peter", last_name: "Smith"
+        first_name: "Mike", last_name: "Dunhill"
     },
     {
         first_name: "Peter", last_name: "Pan", gender: "Male"
@@ -80,17 +80,15 @@ db.customers.insert([
 Update the first record found. Deletes old fields and only save new input data. 
 ```javascript
 db.customers.update(
-    {first_name: "John"},
-    {$set: 
-        {last_name:'Smith'}
-    }
+    {first_name: 'Frodo'},
+    {first_name:'Peter', last_name:'Smith'}
 )
 ```
 
 Update the first record found. Does not overwrite other fields.
 ```javascript
 db.customers.update(
-    {first_name: "John"},
+    {first_name: 'John'},
     {$set: 
         {last_name:'Smith'}
     }
@@ -100,7 +98,7 @@ db.customers.update(
 Update all records matching search.
 ```javascript
 db.customers.updateMany(
-    {first_name: "John"},
+    {first_name: 'John'},
     {$set: 
         {last_name:'Smith'}
     }
