@@ -122,7 +122,3 @@ db.customers.remove({first_name:"John"})
 
 `db.createCollection(‘customers’);` - Create a new collection
 
-
-```javascript
-
-```
