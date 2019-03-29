@@ -24,3 +24,21 @@
 * `docker run -d -p 5432:5432 --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres`
 * `docker exec -it my-postgres bash`
 * `psql -h localhost -p 5432 -U postgres -W`
+
+## Run Docker commands without sudo
+
+1. Add the `docker` group if it doesn't already exist
+
+```console
+$ sudo groupadd docker
+```
+
+2. Add the connected user `$USER` to the docker group
+```console
+$ sudo gpasswd -a $USER docker
+```
+
+3. Restart the `docker` daemon
+```console
+$ sudo service docker restart
+```
