@@ -1,6 +1,6 @@
 # Bash Scripting
 
-## For loops
+## For loops
 ```bash
 #!/bin/bash
 
@@ -16,7 +16,7 @@ for i in ${array}; do
 done
 ```
 
-## If-Else
+## If-Else
 ```bash
 #!/bin/bash
 
