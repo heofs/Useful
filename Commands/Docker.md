@@ -9,7 +9,10 @@
 * `docker container rm CONTAINERID` - Remove docker container with id
 * `docker volumes ls` - Show all volumes
 * `docker volumes prune` - Remove all unused volumes
+
+## Network
 * `docker network ls` - Show docker network connections
+* `docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' CONTAINERID` - Show container ip address
 
 ## MongoDB Container
 
