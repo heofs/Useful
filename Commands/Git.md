@@ -1,7 +1,7 @@
 # Git
 
 ## SSH folder setup
-* ```git clone git@github.com:UserName/RepoName.git```  - Creates a new folder called RepoName
+* ```git clone git@github.com:UserName/RepoName.git``` - Clones down the repository to folder.
 
 ## Branches
 
