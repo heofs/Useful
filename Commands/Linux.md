@@ -52,3 +52,5 @@ Secure-Delete
 ## Install .deb package from terminal.
 ```sudo dpkg -i name.deb```
 
+## SSH
+`ssh -i ./private-key.pem user@ipaddress` - SSH to machine using a private key file.
