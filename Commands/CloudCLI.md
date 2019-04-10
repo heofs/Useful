@@ -1,6 +1,6 @@
 # Cloud
 
-## AWS
+## AWS
 
 ### AWS CLI
 
