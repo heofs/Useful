@@ -1,55 +1,63 @@
 # Git
 
 ## Basic commands
-* ```git clone git@github.com:UserName/RepoName.git``` - Clones down the repository to current folder.
-* `git pull` - Pulls remote repo down to working directory. 
-* `git fetch` - Fetches remote repo down to local repo.
+
+- `git clone git@github.com:UserName/RepoName.git` - Clones down the repository to current folder.
+- `git pull` - Pulls remote repo down to working directory.
+- `git fetch` - Fetches remote repo down to local repo.
 
 ## Branches
 
-* ```git branch```  - List branches.
-* ```git branch -d branchname```  - Deletes branch.
-* ```git checkout master``` ```git merge branchname``` - Update master with new branch
-* `git checkout -` - Switch to the last used branch.
+- `git branch` - List branches.
+- `git branch -d branchname` - Deletes branch.
+- `git checkout master` `git merge branchname` - Update master with new branch
+- `git checkout -` - Switch to the last used branch.
 
 ### Create a new branch
-* ```git checkout -b branchname```  - Starts new branch and open the branch.
-OR
-* ```git branch branchname``` - Start new branch.
-* ```git checkout branchname``` - Open branch.
+
+- `git checkout -b branchname` - Starts new branch and open the branch.
+  OR
+- `git branch branchname` - Start new branch.
+- `git checkout branchname` - Open branch.
 
 ## Rebasing
-* `git checkout master`
-* `git pull`
-* `git rebase master` - Merges your current branch with master.
+
+- `git checkout master`
+- `git pull`
+- `git rebase master` - Merges your current branch with master.
 
 ## Stashing
-* `git stash` - Stashes changes.
-* `git stash pop` - Brings back the changes.
 
+- `git stash` - Stashes changes.
+- `git stash pop` - Brings back the changes.
 
 ## Extras
+
 ### GPG Signing
+
 Enabling GPG signing of commits
 
-* `gpg --gen-key` - Generate a new GPG key.
-* `gpg --list-secret-keys --keyid-format LONG`- List all gpg keys.
-* `gpg --armor --export B251A5023921838` - Exports the public key. Add this to GitHub.
-* `git config --global user.signingkey B251A5023921838` - Specifiy which key to use.
-* `git config --global commit.gpgsign true`- Enable signing for any local repo on computer.
+- `gpg --gen-key` - Generate a new GPG key.
+- `gpg --list-secret-keys --keyid-format LONG`- List all gpg keys.
+- `gpg --armor --export B251A5023921838` - Exports the public key. Add this to GitHub.
+- `git config --global user.signingkey B251A5023921838` - Specifiy which key to use.
+- `git config --global commit.gpgsign true`- Enable signing for any local repo on computer.
 
 ### Signing old commits
+
 1. `git rebase -i master` - Opens up rebase.
 2. Add `exec git commit --amend --no-edit -S` on a new line after each commit.
 3. `git push -f` - Force a push to the repo.
 
 ### Change default git editor to VS Code
+
 1. Open `~/.gitconfig`
 2. Add the following code:
 
-```
+````
 [core]
     # Use custom `.gitignore` and `.gitattributes`
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
     editor = code --wait```
+````

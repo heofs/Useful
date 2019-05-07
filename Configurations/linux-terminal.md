@@ -1,5 +1,25 @@
+# Linux Terminal
+
+Configuring Linux terminal using `~/.bashrc` file
+
+## Personal
+
 ```bash
-export PS1="\[\e[1;31m\]-------------------------- \w \n\u -> \[\e[0m\] "
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+export CLICOLOR=1
+export LSCOLORS=DxFxCxGxCxexexaxaxdxDx
+
+export PS1="\[\e[1;31m\]-------------------------- \w \n\h : \u -> \[\e[0m\] "
+export PS2="| => "
+
+screenfetch -A 'Debian'
+```
+
+```bash
+export PS1="\[\e[1;31m\]__________________________________    | \w \n| => \[\e[0m\] "
 export PS2="| => "
 
 export CLICOLOR=1
@@ -14,9 +34,9 @@ alias .3='cd ../../../'                     # Go back 3 directory levels
 alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
+alias ptfldr='cd Documents/Prog/Python'
+alias prfldr='cd Documents/Prog'
 
-alias pfolder='cd ~/Documents/Development/Python'
-alias dfolder='cd ~/Documents/Development'
 
 alias myip='curl ip.appspot.com'                    # myip:         Public facing IP Address
 alias netCons='lsof -i'                             # netCons:      Show all open TCP/IP sockets
@@ -26,12 +46,20 @@ alias lsockU='sudo /usr/sbin/lsof -nP | grep UDP'   # lsockU:       Display only
 alias lsockT='sudo /usr/sbin/lsof -nP | grep TCP'   # lsockT:       Display only open TCP sockets
 alias ipInfo0='ipconfig getpacket en0'              # ipInfo0:      Get info on connections for en0
 alias ipInfo1='ipconfig getpacket en1'              # ipInfo1:      Get info on connections for en1
+alias openPorts='sudo lsof -i | grep LISTEN'        # openPorts:    All listening connections
+alias showBlocked='sudo ipfw list'                  # showBlocked:  All ipfw rules inc/ blocked IPs
 
+screenfetch -N -A 'Scientific Linux'
+```
 
-# Setting PATH for Python 3.6
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
+## Server
 
-neofetch  --block_width 4 --ascii_distro 'Debian'
+```bash
+export CLICOLOR=1
+export LSCOLORS=DxFxCxGxCxexexaxaxdxDx
+
+export PS1="\[\e[1;31m\]-------------------------- \w \n\h : \u -> \[\e[0m\] "
+export PS2="| => "
+
+screenfetch -A 'Debian'
 ```

@@ -6,26 +6,24 @@
 	</p>
 </div>
 
-## Contents
-
--   [Commands](#commands)
--   [Development](#development)
--   [Configurations](#configurations)
--   [Cheat Sheets](#computer-science)
-
 ### Commands
 
--   [Linux](https://github.com/heofs/Useful/tree/master/Commands/Linux.md#readme) - Linux terminal commands.
--   [Git](https://github.com/heofs/Useful/tree/master/Commands/Git.md#readme) - GitHub commands.
--   [Docker](https://github.com/heofs/Useful/tree/master/Commands/Docker.md#readme) - Container commands.
+- [AWS](./Commands/AWS.md#readme) - Amazon Web Services CLI commands.
+- [Docker](./Commands/Docker.md#readme) - Docker Container commands.
+- [Git](./Commands/Git.md#readme) - Git commands.
+- [Linux](./Commands/Linux.md#readme) - Linux terminal commands.
 
 ### Programming
 
--   [Python 3](https://github.com/heofs/Useful/tree/master/Programming/Python3.md#readme) - Commands for working with Python 3.
--   [C++](https://github.com/heofs/Useful/tree/master/Programming/C++.md#readme) - Commands for working with C++.
--   [MongoDB](https://github.com/heofs/Useful/blob/master/Programming/MongoDB.md#readme) - MongoDB document database.
+- [Bash](./Programming/Bash.md#readme) - Scripting in Bash.
+- [C++](./Programming/C++.md#readme) - Commands for working with C++.
+- [GraphQL](./Programming/GraphQL.md#readme) - Structuring GraphQL schema.
+- [MongoDB](./Programming/MongoDB.md#readme) - MongoDB document database.
+- [PostgreSQL](./Programming/PostgreSQL.md#readme) - Working with postgres.
+- [Python 3](./Programming/Python3.md#readme) - Commands for working with Python 3.
+- [SQL](./Programming/SQL.md#readme) - SQL queries.
 
 ### Configurations
 
--   [Bashrc](https://github.com/heofs/Useful/tree/master/Configurations/Bashrc-config.md#readme) - Bash terminal configurations.
-
+- [Linux Terminal](./Configurations/linux-terminal.md#readme) - Bash terminal configurations.
+- [OSX Terminal](./Configurations/mac-terminal.md#readme) - OSX terminal configurations.
