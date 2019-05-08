@@ -37,8 +37,8 @@
 
 Enabling GPG signing of commits
 
-- `gpg --gen-key` - Generate a new GPG key.
-- `gpg --list-secret-keys --keyid-format LONG`- List all gpg keys.
+- `gpg --full-generate-key` - Generate a new GPG key.
+- `gpg --list-secret-keys --keyid-format LONG`- List all gpg keys, use the top sec key.
 - `gpg --armor --export B251A5023921838` - Exports the public key. Add this to GitHub.
 - `git config --global user.signingkey B251A5023921838` - Specifiy which key to use.
 - `git config --global commit.gpgsign true`- Enable signing for any local repo on computer.
