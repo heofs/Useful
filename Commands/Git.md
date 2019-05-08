@@ -52,13 +52,15 @@ Enabling GPG signing of commits
 
 ### Change default git editor to VS Code
 
-1. Open `~/.gitconfig`
-2. Add the following code:
+1. Open gitconfig using `vim ~/.gitconfig`
+2. Add the following at the end:
 
-````
+```
 [core]
     # Use custom `.gitignore` and `.gitattributes`
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
-    editor = code --wait```
-````
+    editor = code --wait
+```
+
+3. Open VS Code command palette (`CMD + Shift + P`) and run `Shell Command: Install 'code' command in PATH`
