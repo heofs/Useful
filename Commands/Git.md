@@ -12,6 +12,7 @@
 - `git branch -d branchname` - Deletes branch.
 - `git checkout master` `git merge branchname` - Update master with new branch
 - `git checkout -` - Switch to the last used branch.
+- `git checkout -- .` - Switch to master and delete current changes.
 
 ### Create a new branch
 
