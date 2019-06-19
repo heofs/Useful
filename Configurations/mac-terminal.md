@@ -115,3 +115,21 @@ Put in file called custom.terminal and import through mac terminal settings.
 </dict>
 </plist>
 ```
+
+## iTerm2
+
+Move entire words with ⌥ ← and ⌥ →.
+
+In the Profile Shortcut Keys, with the following settings:
+
+```
+Keyboard Shortcut: ⌥←
+Action: Send Escape Sequence
+Esc+: b
+```
+
+```
+Keyboard Shortcut: ⌥→
+Action: Send Escape Sequence
+Esc+: f
+```
