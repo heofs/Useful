@@ -10,6 +10,12 @@
 - `docker volumes ls` - Show all volumes
 - `docker volumes prune` - Remove all unused volumes
 
+## Installation
+
+Installation on Raspberry Pi (Debian)
+
+```curl -sSL https://get.docker.com | sh```
+
 ## Network
 
 - `docker network ls` - Show docker network connections
