@@ -63,3 +63,13 @@ sswap
 ## SSH
 
 `ssh -i ./private-key.pem user@ipaddress` - SSH to machine using a private key file.
+
+### Setting up SSH keys
+
+1. On server do `ssh-keygen` if keys doesnt exist.
+1. Generate a key pair and enter the public key in `~/.ssh/authorized_keys` in one line (needs to start with ssh-rsa).
+1. `sudo chmod 700 ~/.ssh`
+1. `sudo chmod 600 ~/.ssh/authorized_keys`
+1. `sudo chown $USER:$USER ~/.ssh -R`
+1. `sudo service ssh restart`
+1. Connect to server by specifying your private key matching the public key.
