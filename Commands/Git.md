@@ -34,6 +34,15 @@
 
 ## Extras
 
+### Add SSH Key
+
+- `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+- `eval "$(ssh-agent -s)"`
+- `ssh-add ~/.ssh/id_rsa`
+- `cat ~/.ssh/id_rsa.pub` copy to clipboard.
+- Add key to SSH in <https://github.com/settings/keys>.
+
+
 ### GPG Signing
 
 Enabling GPG signing of commits
