@@ -34,6 +34,10 @@
 
 ## Extras
 
+### Configure User
+- `git config --global user.name "yourname"`
+- `git config --global user.email "youremail"`
+
 ### Add SSH Key
 
 - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
