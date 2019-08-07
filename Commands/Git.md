@@ -77,3 +77,7 @@ Enabling GPG signing of commits
 ```
 
 3. Open VS Code command palette (`CMD + Shift + P`) and run `Shell Command: Install 'code' command in PATH`
+
+### Rebase on pull
+
+`git config --global pull.rebase true`
