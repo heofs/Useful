@@ -57,8 +57,9 @@ Enabling GPG signing of commits
 - `git branch -d branchname` - Deletes branch.
 - `git checkout master` -> `git merge branchname` - Update master with new branch.
 - `git checkout -` - Switch to the previous branch.
-- `git checkout -- .` - Switch to master and delete current changes.
+- `git checkout -- .` - Switch to master and delete current changes.  
 
+Creating a new branch
 - `git checkout -b branchname` - Starts new branch and open the branch.
 - `git branch branchname` - Start new branch.
 
