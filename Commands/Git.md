@@ -1,38 +1,6 @@
 # Git
 
-## Basic commands
-
-- `git clone git@github.com:UserName/RepoName.git` - Clones down the repository to current folder.
-- `git pull` - Pulls remote repo down to working directory.
-- `git fetch` - Fetches remote repo down to local repo.
-
-## Branches
-
-- `git branch` - List branches.
-- `git branch -d branchname` - Deletes branch.
-- `git checkout master` `git merge branchname` - Update master with new branch
-- `git checkout -` - Switch to the last used branch.
-- `git checkout -- .` - Switch to master and delete current changes.
-
-### Create a new branch
-
-- `git checkout -b branchname` - Starts new branch and open the branch.
-  OR
-- `git branch branchname` - Start new branch.
-- `git checkout branchname` - Open branch.
-
-## Rebasing
-
-- `git checkout master`
-- `git pull`
-- `git rebase master` - Merges your current branch with master.
-
-## Stashing
-
-- `git stash` - Stashes changes.
-- `git stash pop` - Brings back the changes.
-
-## Extras
+## Configurations
 
 ### Configure User
 - `git config --global user.name "yourname"`
@@ -81,3 +49,30 @@ Enabling GPG signing of commits
 ### Rebase on pull
 
 `git config --global pull.rebase true`
+
+## Commands
+
+### Branches
+
+- `git branch -d branchname` - Deletes branch.
+- `git checkout master` -> `git merge branchname` - Update master with new branch.
+- `git checkout -` - Switch to the previous branch.
+- `git checkout -- .` - Switch to master and delete current changes.
+
+- `git checkout -b branchname` - Starts new branch and open the branch.
+- `git branch branchname` - Start new branch.
+
+### Rebasing
+
+- `git checkout master`
+- `git pull`
+- `git checkout yourbranch`
+- `git rebase master -i` - Merges your current branch with master.
+
+### Stashing
+
+- `git stash` - Stashes changes.
+- `git stash pop` - Brings back the changes.
+- `git stash apply` - Brings back changes and keeps stash.
+
+
