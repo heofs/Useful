@@ -25,5 +25,5 @@
 
 ### Configurations
 
-- [Linux Terminal](./Configurations/linux-terminal.md#readme) - Bash terminal configurations.
-- [OSX Terminal](./Configurations/mac-terminal.md#readme) - OSX terminal configurations.
+- [Linux Terminal](./Commands/Linux-Terminal.md#readme) - Bash terminal configurations.
+- [OSX Terminal](./Commands/Mac-Terminal.md#readme) - OSX terminal configurations.
