@@ -1,6 +1,7 @@
 # ZSH
 
-```
+
+```zsh
 # vim:ft=zsh ts=2 sw=2 sts=2
 
 # Must use Powerline font, for \uE0A0 to render.
