@@ -12,3 +12,9 @@
 `gcloud projects list`
 
 `gcloud config set project 'PROJECT ID'`
+
+## Set default region
+
+For function deploy
+
+`gcloud config set functions/region europe-west1`
