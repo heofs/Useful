@@ -18,3 +18,9 @@
 For function deploy
 
 `gcloud config set functions/region europe-west1`
+
+## Cloud Functions
+
+Deploying http function
+
+`gcloud functions deploy myFunction --runtime nodejs10 --trigger-http`
