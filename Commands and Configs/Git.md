@@ -89,4 +89,10 @@ Creating a new branch
 - `git stash pop` - Brings back the changes.
 - `git stash apply` - Brings back changes and keeps stash.
 
+### Ignoring files locally only
 
+Add file to `.git/info/exclude`
+
+then do
+
+`git update-index --skip-worktree ./your-file.yaml`
