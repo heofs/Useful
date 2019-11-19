@@ -95,4 +95,8 @@ Add file to `.git/info/exclude`
 
 then do
 
-`git update-index --skip-worktree ./your-file.yaml`
+`git update-index --skip-worktree <file>`
+
+undo with
+
+`git update-index --no-skip-worktree <file>`
